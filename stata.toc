@@ -1,0 +1,7 @@
+v 3
+d ipwadh - Inverse-probability weights for treatment non-adherence
+d Weights for an on-treatment Cox / Lin-Wei-Yang-Ying analysis, also for
+d multiply imputed data.
+d 
+d Program by Barna Szabó-Söderberg
+p ipwadh Inverse-probability weights for treatment non-adherence

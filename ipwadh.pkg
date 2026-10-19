@@ -1,0 +1,32 @@
+v 3
+d ipwadh - Inverse-probability weights for treatment non-adherence
+d 
+d Stabilized inverse-probability weights for time-varying non-adherence
+d (and death / loss to follow-up) in randomized trials with recurrent
+d events, for an on-treatment Cox or Lin-Wei-Yang-Ying analysis: rate models,
+d exact adherent-only split, piece weights, weight diagnostics, optional
+d adjusted standard errors, and multiply imputed (mi) data.
+d 
+d Commands: ipwadh, ipwadh_mi, ipwadhc, ipwadh_split, ipwadh_eval,
+d stcox_ipwadh (ipwadh_covlists is an internal helper)
+d 
+d Requires: Stata version 15 (frame() and mi data: Stata version 16)
+d 
+d Program by Barna Szabó-Söderberg
+d Distribution-Date: 20261011
+f ipwadh.ado
+f ipwadh_mi.ado
+f ipwadhc.ado
+f ipwadh_covlists.ado
+f ipwadh_split.ado
+f ipwadh_eval.ado
+f stcox_ipwadh.ado
+F ipwadh_mata.do
+F stcox_ipwadh_mata.do
+f ipwadh.sthlp
+f ipwadh_mi.sthlp
+f ipwadhc.sthlp
+f ipwadh_split.sthlp
+f ipwadh_eval.sthlp
+f stcox_ipwadh.sthlp
+e
